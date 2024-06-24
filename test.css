@@ -1,0 +1,115 @@
+/*----input---*/
+
+
+.inputt {
+    
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.oooo{
+    background-color: #9d4edd;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputt input[type="text"],
+.inputt button {
+    display: block;
+    width: calc(100% - 22px); 
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.inputt button {
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/*----------*/
+
+#demo{
+    display: none;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    border-color: black;
+    border-style: solid;
+    height: 100%;
+    position: relative;
+    color: black;
+    background-size: cover;
+    
+}
+#temp{
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin: 5px;
+    border-color: black;
+    border-style: solid;
+    
+
+
+}
+.main p {
+    
+}
+#ws{
+    
+    display: flex;
+    
+    margin: 5px;
+    border-color: black;
+    border-style: solid;
+
+}
+.wind p{
+    margin: 20px;
+}
+.sys{
+  
+    display: flex;
+   
+    margin: 5px;
+    border-color: black;
+    border-style: solid;
+    width: 100%;
+    height: 100px;
+   
+
+}
+.sys p {
+    margin: 20px;
+}
+#weathmain{
+   
+    display: flex;
+    
+    margin: 5px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+.weather p {
+    margin: 20px;
+}
+
+
+
+
+
